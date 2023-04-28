@@ -49057,7 +49057,7 @@ Ap(a,b,c){return this.amX(a,b,c)},
 amX(a,b,c){var s=0,r=A.L(t.N),q,p,o,n,m,l
 var $async$Ap=A.M(function(d,e){if(d===1)return A.I(e,r)
 while(true)switch(s){case 0:n=t.N
-m=A.aq(["Access-Control-Allow-Origin","*","Accept","*/*","content-type","application/json","AUTH_KEY","MOBEX123"],n,n)
+m=A.aq(["Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","POST, OPTIONS","content-type","application/json","AUTH_KEY","MOBEX123"],n,n)
 s=3
 return A.N(A.aUm(A.lW("http://apicc.quik-e.mobi/api/SendTextMsg",0,null),B.bl.ke(A.aq(["MOBILENO",b,"SEGMENT","1015","DISTCHNL","50","STAGEID",202,"VAR1",a,"VAR2",c,"SENDER","MOBEXX"],n,t.K)),m),$async$Ap)
 case 3:l=e
